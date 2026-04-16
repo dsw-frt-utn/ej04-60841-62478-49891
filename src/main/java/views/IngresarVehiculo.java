@@ -332,8 +332,8 @@ public class IngresarVehiculo extends javax.swing.JFrame {
     
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         cerrar();
-        Principal menu = new Principal();
-        menu.ejecutar();
+        MenuPrincipal menu = new MenuPrincipal();
+        menu.setVisible(true);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
