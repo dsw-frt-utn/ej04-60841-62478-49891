@@ -27,10 +27,10 @@ public class Persistencia {
     }
     
     private static void inicializarMarcas() {
-        marcas.add(new Marca("Renault"));
-        marcas.add(new Marca("Ford"));
-        marcas.add(new Marca("Iveco"));
-        marcas.add(new Marca("Mercedes"));
+        marcas.add(new Marca("Renault","Francia"));
+        marcas.add(new Marca("Ford","EEUU"));
+        marcas.add(new Marca("Iveco","Italia"));
+        marcas.add(new Marca("Mercedes","Alemania"));
     }
     
  private static void inicializarVehiculos(){
