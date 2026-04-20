@@ -2,17 +2,33 @@
 package domain;
 
 public class Marca {
-    private String descripcion;
+    
+    private String Nombre;
+    private String Pais;
 
-    public Marca(String descripcion) {
-        this.descripcion = descripcion;
+    public Marca(String Nombre, String Pais) {
+        this.Nombre = Nombre;
+        this.Pais = Pais;
     }
 
-    public String getDescripcion() {
-        return descripcion;
+    public String getNombre() {
+        return Nombre;
+    }
+
+    public void setNombre(String Nombre) {
+        this.Nombre = Nombre;
+    }
+
+    public String getPais() {
+        return Pais;
+    }
+
+    public void setPais(String Pais) {
+        this.Pais = Pais;
     }
     @Override
     public String toString() {
-    return descripcion;
-}
+        return this.Nombre + " - " + this.Pais;
+    }
+   
 }
